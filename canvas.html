@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>HALAMAN BERANDA AWAL</title>
+        <title>HALAMAN CANVAS</title>
         <meta charset="UTP=8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Fadillah Dwi Anggraini">
@@ -14,7 +14,7 @@
                 font-family: Arial, Helvetica, sans-serif;
             }
             header {
-                background-color: #666;
+                background-color: #AF4425;
                 padding: 30px;
                 text-align: center;
                 font-size: 35px;
@@ -24,7 +24,7 @@
                 float: left;
                 width: 30%;
                 height: 300px;
-                background: #ccc;
+                background: #EBDCB2;
                 padding: 20px;
             }
             nav ul {
@@ -35,7 +35,7 @@
                 float: left;
                 padding: 20px;
                 width: 70%;
-                background-color: #f1f1f1;
+                background-color: #662E1C;
                 height: 300%;
             }
             section::after {
@@ -44,7 +44,7 @@
                 clear: both;
             }
             footer {
-                background-color: #777;
+                background-color: #C9A66B;
                 padding: 10px;
                 text-align: center;
                 color: white;
@@ -55,11 +55,12 @@
                 height:auto;
             }
             }
+           
         </style>
     </head>
     <body>
         <header>
-            <h2> WEBSITE BARU SAYA</h2>
+            <h2> WEBSITE JAM ANALOG </h2>
         </header>
         <section>
             <nav>
@@ -74,21 +75,13 @@
                 </ul>
             </nav>
             <article>
-                <h1>EXO</h1>
-                <p>Exo (Korea: 엑소, sering ditulis sebagai EXO) adalah sebuah grup vokal
-                    pria Korea Selatan-Tiongkok yang berbasis di Seoul. Grup ini beranggotakan
-                    sembilan orang: Suho, Baekhyun, Chanyeol, D.O., Kai, Sehun, Xiumin, Lay,
-                    dan Chen. Grup ini dibentuk oleh SM Entertainment pada tahun 2011 dan
-                    debut pada tahun 2012.
-                    Musik mereka memasukkan aliran seperti hip hop, R&B kontemporer, dan juga 
-                    aliran Musik dansa elektronik seperti house, trap, dan synth-pop. Exo merilis
-                    dan membawakan musik dalam bahasa Korea, Mandarin, dan Jepang. Grup ini 
-                    menempati posisi lima besar sebagai selebritas paling berpengaruh dalam daftar 
-                    Forbes Korea Power Celebrity tiap tahun dari 2014 sampai 2018, dan telah dijuluki 
-                    "boyband terbesar di dunia" dan "kings of K-pop" oleh media.</p>
-                <p><i>Ini digunakna untuk membuat sebuahh website, diaman tampilanna adalah sebuah informasi atau apaun. dan link disebelah kiri,
-                    digunakan untuk menuju halaaman baru. sebelum itu, kita harus membuatnya terlebih dahulu.
-                </i></p>
+                <h1>ARTIKEL TENTANG JAM</h1>
+                <canvas id="canvas" width="400" height="400" style="background-color:#333">
+                </canvas>
+                <script src="js/main.js"></script>
+                <p>Website ini akan menampilkan sebuah jam analog
+                    dimana waktunya adalah waktu WIB.
+                </p>
             </article>
         </section>
         <footer>
